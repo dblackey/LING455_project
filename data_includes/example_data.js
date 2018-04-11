@@ -57,6 +57,13 @@ var items = [
                           "<ol><li><p>How many times did Dave run into friends? (Please enter a number)</p>"+
                           "<input name='answer' type='number' class='obligatory'></li></ol>"}
     ],
+    ["critical3",
+        "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, she bumped into three kids who couldn’t "+
+                "find their parents. As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
+                  "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
+                  "<ol><li><p>How many times did Mary bump into people? (Please enter a number)</p>"+
+                  "<input name='answer' type='number' class='obligatory'></li></ol>"}
+    ]
     [ "filler",
         "Form", {html: "<p style='width:500px'>Jonathan ate three pizzas last week. He also drank a glass of OJ, "+
                           "and ate a piece of cake.</p>"+
