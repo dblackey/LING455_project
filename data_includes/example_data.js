@@ -63,7 +63,7 @@ var items = [
                   "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
                   "<ol><li><p>How many times did Mary bump into people? (Please enter a number)</p>"+
                   "<input name='answer' type='number' class='obligatory'></li></ol>"}
-    ]
+    ],
     [ "filler",
         "Form", {html: "<p style='width:500px'>Jonathan ate three pizzas last week. He also drank a glass of OJ, "+
                           "and ate a piece of cake.</p>"+
