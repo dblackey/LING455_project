@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler");
+var shuffleSequence = seq("intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler")));
 var defaults = [
     "Question", {
         as: ["Yes", "No"]
