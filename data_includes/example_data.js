@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", "practice", "init", rshuffle("test", "filler"));
+var shuffleSequence = seq("intro", "practice", "init", rshuffle(startsWith("critical"), "filler"));
 var defaults = [
     "Question", {
         as: ["Yes", "No"]
@@ -45,7 +45,7 @@ var items = [
         "Message", {html: "<p>Let's begin!</p>",
                     transfer: "click"}
     ],
-    [["test", 1],
+    ["critical1",
         "Form", {html: "<p style='width:500px'>Jess had a cup of coffee with her breakfast this morning. "+
                           "She knew it was going to be a long day, so she packed a little "+
                           "extra in her lunch. By 3:00, she had had another two cups of coffee. "+
