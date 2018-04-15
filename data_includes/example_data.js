@@ -46,7 +46,7 @@ var items = [
                     transfer: "click"}
     ],
     ["critical1",  // condition 1
-        "Form", {html: "<p style='width:500px'>John met three coworkers yesterday. He later went to the park with his kids. Before heading home, "+
+        "Form", {html: "<p style='width:500px'>John had quite the day yesterday -- he met three coworkers. He later went to the park with his kids. Before heading home, "+
                           "he also met a good friend of his.</p>"+
                           "<ol><li><p>How many meetings did John have? (Please enter a number)</p>"+
                           "<input name='answer' type='text' class='obligatory'></li></ol>"}
@@ -72,7 +72,9 @@ var items = [
                   "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["critical5",
-        "Form", {html: ""}
+        "Form", {html: "<p style='width:500px'>i. Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she ran across two of her former roommates. She also ran across an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn. </p>"+
+                       "<ol><li><p>How many times did Elly run across people? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["critical6",
         "Form", {html: ""}
