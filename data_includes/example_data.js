@@ -102,7 +102,8 @@ var items = [
                           "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["end",
-        "Message", 
+        "Message", {html: "<p>This is the end of the experiment. Thanks for your participation! (Press any key to send results and exit)</p>",
+                    transfer: "keypress"}
     ]
     
 ];
