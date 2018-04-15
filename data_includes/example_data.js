@@ -8,23 +8,23 @@ var defaults = [
     }
 ];
 
-define_ibex_controller({
-    name: "TextQuestion",
-    jqueryWidget: {
-        _init: function () {
-            this.options.transfer = null;
-            this.element.VBox({
-                options: this.options,
-                triggers: [1],
-                children: [
-                    "Message", this.options,
-                    "Form", this.options,
-                ]
-            });
-        }
-    },
-    properties: { }
-});
+// define_ibex_controller({
+//     name: "TextQuestion",
+//     jqueryWidget: {
+//         _init: function () {
+//             this.options.transfer = null;
+//             this.element.VBox({
+//                 options: this.options,
+//                 triggers: [1],
+//                 children: [
+//                     "Message", this.options,
+//                     "Form", this.options,
+//                 ]
+//             });
+//         }
+//     },
+//     properties: { }
+// });
 
 var items = [
     ["intro",
@@ -64,11 +64,45 @@ var items = [
                   "<ol><li><p>How many times did Mary bump into people? (Please enter a number)</p>"+
                   "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
+    ["critical4",
+        "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, she came "+
+                  "across two friends of hers, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
+                  "came across her brother, who told her to get back to bed. </p>"+
+                  "<ol><li><p>How many times did Sally come across people? (Please enter a number)</p>"+
+                  "<input name='answer' type='text' class='obligatory'></li></ol>"}
+    ],
+    ["critical5",
+        "Form", {html: ""}
+    ],
+    ["critical6",
+        "Form", {html: ""}
+    ],
+    ["critical7",
+        "Form", {html: ""}
+    ],
+    ["critical8",
+        "Form", {html: ""}
+    ],
+    ["critical9",
+        "Form", {html: ""}
+    ],
+    ["critical10",
+        "Form", {html: ""}
+    ],
+    ["critical11",
+        "Form", {html: ""}
+    ],
+    ["critical12",
+        "Form", {html: ""}
+    ],
     [ "filler",
         "Form", {html: "<p style='width:500px'>Jonathan ate three pizzas last week. He also drank a glass of OJ, "+
                           "and ate a piece of cake.</p>"+
                           "<ol><li><p>How many times did Jonathan eat? (Please enter a number)</p>"+
                           "<input name='answer' type='text' class='obligatory'></li></ol>"}
+    ],
+    ["end",
+        "Message", 
     ]
     
 ];
