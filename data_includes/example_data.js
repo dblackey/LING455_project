@@ -29,7 +29,7 @@ var items = [
                     transfer: "click"}
     ],
     ["critical1",  // condition 1
-        "Form", {html: "<p style='width:500px'>John had quite the day yesterday -- he met three coworkers. He later went to the park with his kids. Before heading home, "+
+        "Form", {html: "<p style='width:500px'>John had a busy day yesterday, as he met three coworkers. He later went to the park with his kids. Before heading home, "+
                           "he also met a good friend of his.</p>"+
                           "<ol><li><p>How many times did John meet people? (Please enter a number)</p>"+
                           "<input name='answer' type='text' class='obligatory'></li></ol>"}
@@ -156,7 +156,7 @@ var items = [
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["end",
-        "Message", {html: "<p>This is the end of the experiment. Thanks for your participation! (Press any key to send results and exit)</p>",
+        "Message", {html: "<p>This is the end of the experiment. Thanks for your participation! (Press any key to send the results and exit)</p>",
                     transfer: "keypress"}
     ]
     
