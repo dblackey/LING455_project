@@ -35,7 +35,7 @@ var items = [
                           "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["critical2",
-        "Form", {html: "<p style='width:500px'>Dave went for a walk in the park. He also ran into four friends of his. Later that day, he "+
+        "Form", {html: "<p style='width:500px'>Dave went for a walk in the park. While he was out, he ran into four friends of his. Later that day, he "+
                           "called them to schedule another time to catch up. He also ran into his teacher, Beth, on his way home.</p>"+
                           "<ol><li><p>How many times did Dave run into friends? (Please enter a number)</p>"+
                           "<input name='answer' type='text' class='obligatory'></li></ol>"}
