@@ -1,4 +1,5 @@
 var shuffleSequence = seq("intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler")), "end");
+var showProgressBar = false;
 var defaults = [
     "Question", {
         as: ["Yes", "No"]
