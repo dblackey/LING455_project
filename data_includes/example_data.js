@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler")));
+var shuffleSequence = seq("intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler")), "end");
 var defaults = [
     "Question", {
         as: ["Yes", "No"]
@@ -7,24 +7,6 @@ var defaults = [
         transfer: "keypress"
     }
 ];
-
-// define_ibex_controller({
-//     name: "TextQuestion",
-//     jqueryWidget: {
-//         _init: function () {
-//             this.options.transfer = null;
-//             this.element.VBox({
-//                 options: this.options,
-//                 triggers: [1],
-//                 children: [
-//                     "Message", this.options,
-//                     "Form", this.options,
-//                 ]
-//             });
-//         }
-//     },
-//     properties: { }
-// });
 
 var items = [
     ["intro",
@@ -72,12 +54,12 @@ var items = [
                   "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["critical5",
-        "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she happened upon two of her former roommates. She also happend upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
+        "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she happened upon two of her former roommates. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
                        "<ol><li><p>How many times did Elly happen upon people? (Please enter a number)</p>"+
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["critical6",
-        "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, he stumbled upon three of his neighbors. He also sat by a pond for a while, and while he was there, he also stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
+        "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, he stumbled upon three of his neighbors. He also sat by a pond for a while, and while he was there, he stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
                        "<ol><li><p>How many times did Alex stumble across people? (Please enter a number)</p>"+
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
@@ -128,7 +110,7 @@ var items = [
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["filler",
-        "Form", {html: "<p style='width:500px'>i. Jessica is a huge moviegoer. Last week, she watched two movies on Tuesday with her friend Alice, and then watched another movie on Wednesday at the theater down the street from her house. She’s thinking about seeing a couple more movies next week.</p>"+
+        "Form", {html: "<p style='width:500px'>Jessica is a huge moviegoer. Last week, she watched two movies on Tuesday with her friend Alice, and then watched another movie on Wednesday at the theater down the street from her house. She’s thinking about seeing a couple more movies next week.</p>"+
                        "<ol><li><p>How many times did Jessica watch a movie? (Please enter a number)</p>"+
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
@@ -168,7 +150,7 @@ var items = [
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
     ["filler",
-        "Form", {html: "<p style='width:500px'>i. Zach and his friend Erick spent the weekend by the pool, enjoying the nice weather. While they were there, they happened upon two of their classmates. They also happened upon the teacher of the course. Zach and Erick weren’t so happy to have seen so many people from school during their weekend away. </p>"+
+        "Form", {html: "<p style='width:500px'>Zach and his friend Erick spent the weekend by the pool, enjoying the nice weather. While they were there, they happened upon two of their classmates. They also happened upon the teacher of the course. Zach and Erick weren’t so happy to have seen so many people from school during their weekend away. </p>"+
                        "<ol><li><p>How many times did Zach and Erick happen upon people? (Please enter a number)</p>"+
                        "<input name='answer' type='text' class='obligatory'></li></ol>"}
     ],
