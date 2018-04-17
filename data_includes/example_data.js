@@ -1,5 +1,13 @@
-var shuffleSequence = seq("intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler")), "end");
+var shuffleSequence = seq("consent", "setcounter", "intro", "practice", "init", rshuffle(anyOf(startsWith("critical"), "filler")), "comments", "debriefing");
 var showProgressBar = false;
+
+var Parameters = {},
+    URLParameters = window.location.search.replace("?", "").split("&");
+for (parameter in URLParameters) Parameters[URLParameters[parameter].split("=")[0]] = URLParameters[parameter].split("=")[1];
+assert(Parameters.hasOwnProperty("id") == true, "Oops! It looks like you've not reached here through SONA...");
+var id = Parameters.id;
+
+
 var defaults = [
     "Question", {
         as: ["Yes", "No"]
@@ -10,6 +18,27 @@ var defaults = [
 ];
 
 var items = [
+        ["setcounter", "__SetCounter__", { }],
+   
+    // consent form
+    ["consent", "Form", {html: {include: "SONAconsentForm.html"}}],
+    
+    
+    // instructions if using separate html form
+//    ["instruct", "Form", {
+//        html: { include: "instructions.html"},
+//    } ],
+    
+    // Handling Results / debriefing
+    
+    ["comments", "Form",  {html: {include: "comments.html"}}, "__SendResults__", {
+       manualSendResults: true,
+       sendingResultsMessage: "Please wait while your answers are being saved.",
+       completionMessage: "Your answers have successfully being saved!"
+    }],     
+    
+    ["debriefing", "Message", {html: {include: "debriefing.html"}, transfer:null}],    
+    
     ["intro",
         "Message", {html: "<p>You will be given several paragraphs of text and asked a question after each on your" + 
                           " comprehension. Try to answer as accurately as possible.</p>"+
