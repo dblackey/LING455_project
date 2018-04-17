@@ -81,20 +81,20 @@ var items = [
                           "<p>How many times did Dave run into friends? (Please enter a number)</p>"+
                           "<input name='answer' type='text' class='obligatory'>"}
     ],
-    // [["criticalA", 3],
-    //     "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, she bumped into three lost kids. "+
-    //             "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
-    //               "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
-    //               "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
-    //               "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalB", 3],
-    //     "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, three lost kids bumped into her. "+
-    //             "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
-    //               "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
-    //               "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
-    //               "<input name='answer' type='text' class='obligatory'>"}
-    // ],
+    [["criticalA", 3],
+        "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, she bumped into three lost kids. "+
+                "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
+                  "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
+                  "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
+                  "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalB", 3],
+        "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, three lost kids bumped into her. "+
+                "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
+                  "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
+                  "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
+                  "<input name='answer' type='text' class='obligatory'>"}
+    ],
     // [["criticalA", 4],
     //     "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, she came "+
     //               "across two friends of hers, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
