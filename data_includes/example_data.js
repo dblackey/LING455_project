@@ -95,30 +95,30 @@ var items = [
                   "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
                   "<input name='answer' type='text' class='obligatory'>"}
     ],
-    // [["criticalA", 4],
-    //     "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, she came "+
-    //               "across two friends of hers, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
-    //               "came across her brother, who told her to get back to bed. </p>"+
-    //               "<p>How many times did Sally come across people? (Please enter a number)</p>"+
-    //               "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalB", 4],
-    //     "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, two friends of hers "+
-    //               "came across her, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
-    //               "came across her brother, who told her to get back to bed. </p>"+
-    //               "<p>How many times did Sally come across people? (Please enter a number)</p>"+
-    //               "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalA", 5],
-    //     "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she happened upon two of her former roommates. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
-    //                    "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalB", 5],
-    //     "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, two of her former roommates happened upon her. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
-    //                    "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
+    [["criticalA", 4],
+        "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, she came "+
+                  "across two friends of hers, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
+                  "came across her brother, who told her to get back to bed. </p>"+
+                  "<p>How many times did Sally come across people? (Please enter a number)</p>"+
+                  "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalB", 4],
+        "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, two friends of hers "+
+                  "came across her, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
+                  "came across her brother, who told her to get back to bed. </p>"+
+                  "<p>How many times did Sally come across people? (Please enter a number)</p>"+
+                  "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalA", 5],
+        "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she happened upon two of her former roommates. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
+                       "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalB", 5],
+        "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, two of her former roommates happened upon her. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
+                       "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
     // [["criticalA", 6],
     //     "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, he stumbled upon three of his neighbors. He also sat by a pond for a while, and while he was there, he stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
     //                    "<p>How many times did Alex stumble across people? (Please enter a number)</p>"+
