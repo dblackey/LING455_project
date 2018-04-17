@@ -50,8 +50,8 @@ var items = [
                           "She knew it was going to be a long day, so she packed a little "+
                           "extra in her lunch. By 3:00, she had had another two cups of coffee. "+
                           "She was exhausted by the time she made it home.</p>"+
-                          "<ol><li><p>How many cups of coffee did Jess have today? (Please enter a number)</p>"+
-                          "<input name='answer' type='text' class='obligatory'></li></ol>"}
+                          "<p>How many cups of coffee did Jess have today? (Please enter a number)</p>"+
+                          "<input name='answer' type='text' class='obligatory'>"}
     ],
     ["init",
         "Message", {html: "<p>Let's begin!</p>",
