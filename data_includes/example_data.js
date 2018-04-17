@@ -149,36 +149,36 @@ var items = [
                        "<p>How many times did people run into Alison that day? (Please enter a number)</p>"+
                        "<input name='answer' type='text' class='obligatory'>"}
     ],
-    // ["criticalA", 9],
-    //     "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, he bumped into his two aunts. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
-    //                    "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalB", 9],
-    //     "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, his two aunts bumped into him. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
-    //                    "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalA", 10],
-    //     "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, he came across three of his high school friends. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
-    //                    "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalB", 10],
-    //     "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, three of his high school friends came across him. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
-    //                    "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalA", 11],
-    //     "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, she happened upon two other friends - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
-    //                    "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
-    // [["criticalB", 11],
-    //     "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, two other friends happened upon her - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
-    //                    "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
-    //                    "<input name='answer' type='text' class='obligatory'>"}
-    // ],
+    ["criticalA", 9],
+        "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, he bumped into his two aunts. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
+                       "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalB", 9],
+        "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, his two aunts bumped into him. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
+                       "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalA", 10],
+        "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, he came across three of his high school friends. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
+                       "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalB", 10],
+        "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, three of his high school friends came across him. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
+                       "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalA", 11],
+        "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, she happened upon two other friends - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
+                       "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
+    [["criticalB", 11],
+        "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, two other friends happened upon her - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
+                       "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
+                       "<input name='answer' type='text' class='obligatory'>"}
+    ],
     // [["criticalA", 12],
     //     "Form", {html: "<p style='width:500px'>Derek works as a doctor at a hospital. Yesterday at work, he stumbled upon two former patients of his. Derek is always thrilled to hear how his former patients are doing. That same day, an old friend of his also stumbled upon him at work. Overall, it was a pretty good day.</p>"+
     //                    "<p>How many times did people stumble upon Derek that day? (Please enter a number)</p>"+
