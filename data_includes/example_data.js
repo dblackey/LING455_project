@@ -81,114 +81,114 @@ var items = [
                           "<p>How many times did Dave run into friends? (Please enter a number)</p>"+
                           "<input name='answer' type='text' class='obligatory'>"}
     ],
-    [["criticalA", 3],
-        "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, she bumped into three lost kids. "+
-                "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
-                  "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
-                  "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
-                  "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 3],
-        "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, three lost kids bumped into her. "+
-                "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
-                  "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
-                  "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
-                  "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 4],
-        "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, she came "+
-                  "across two friends of hers, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
-                  "came across her brother, who told her to get back to bed. </p>"+
-                  "<p>How many times did Sally come across people? (Please enter a number)</p>"+
-                  "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 4],
-        "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, two friends of hers "+
-                  "came across her, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
-                  "came across her brother, who told her to get back to bed. </p>"+
-                  "<p>How many times did Sally come across people? (Please enter a number)</p>"+
-                  "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 5],
-        "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she happened upon two of her former roommates. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
-                       "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 5],
-        "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, two of her former roommates happened upon her. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
-                       "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 6],
-        "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, he stumbled upon three of his neighbors. He also sat by a pond for a while, and while he was there, he stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
-                       "<p>How many times did Alex stumble across people? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 6],
-        "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, three of his neighbors stumbled across him. He also sat by a pond for a while, and while he was there, he stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
-                       "<p>How many times did Alex stumble across people? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 7],
-        "Form", {html: "<p style='width:500px'>Mary loves hanging out in coffee shops. She met two of her closest friends in one of her favorites last Wednesday. That same day, Mary went to a garden near her neighborhood. She met her dad there to talk about their upcoming trip.</p>"+
-                       "<p>How many times did people meet Mary last Wednesday? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 7],
-        "Form", {html: "<p style='width:500px'>Mary loves hanging out in coffee shops. Two of Mary’s closest friends met her in one of her favorites last Wednesday. That same day, Mary went to a garden near her neighborhood. She met her dad there to talk about their upcoming trip.</p>"+
-                       "<p>How many times did people meet Mary last Wednesday? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 8],
-        "Form", {html: "<p style='width:500px'>Alison told her boss she was sick and took the entire day off. She missed an important meeting, but she didn’t care. Unfortunately, she ran into three of her coworkers. She knows now to come up with better excuses to give her boss. She ran into her sister back at home and told her what a mess the day was.</p>"+
-                       "<p>How many times did people run into Alison that day? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 8],
-        "Form", {html: "<p style='width:500px'>Alison told her boss she was sick and took the entire day off. She missed an important meeting, but she didn’t care. Unfortunately, three of her coworkers ran into her. She knows now to come up with better excuses to give her boss. She ran into her sister back at home and told her what a mess the day was.</p>"+
-                       "<p>How many times did people run into Alison that day? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    ["criticalA", 9],
-        "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, he bumped into his two aunts. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
-                       "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 9],
-        "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, his two aunts bumped into him. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
-                       "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 10],
-        "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, he came across three of his high school friends. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
-                       "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 10],
-        "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, three of his high school friends came across him. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
-                       "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 11],
-        "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, she happened upon two other friends - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
-                       "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 11],
-        "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, two other friends happened upon her - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
-                       "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalA", 12],
-        "Form", {html: "<p style='width:500px'>Derek works as a doctor at a hospital. Yesterday at work, he stumbled upon two former patients of his. Derek is always thrilled to hear how his former patients are doing. That same day, an old friend of his also stumbled upon him at work. Overall, it was a pretty good day.</p>"+
-                       "<p>How many times did people stumble upon Derek that day? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
-    [["criticalB", 12],
-        "Form", {html: "<p style='width:500px'>Derek works as a doctor at a hospital. Yesterday at work, two former patients of his stumbled upon him. Derek is always thrilled to hear how his former patients are doing. That same day, an old friend of his also stumbled upon him at work. Overall, it was a pretty good day.</p>"+
-                       "<p>How many times did people stumble upon Derek that day? (Please enter a number)</p>"+
-                       "<input name='answer' type='text' class='obligatory'>"}
-    ],
+    // [["criticalA", 3],
+    //     "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, she bumped into three lost kids. "+
+    //             "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
+    //               "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
+    //               "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
+    //               "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 3],
+    //     "Form", {html: "<p style='width:500px'>Mary was going out for a jog when she heard an alarm go off. In all the chaos, three lost kids bumped into her. "+
+    //             "As it turned out, someone had accidently set off the tornado alert. Mary was exhausted by the time she made it home. "+
+    //               "She bumped into her friend Alison on the way, but told her she couldn’t chat.</p>"+
+    //               "<p>How many times did Mary bump into people? (Please enter a number)</p>"+
+    //               "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 4],
+    //     "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, she came "+
+    //               "across two friends of hers, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
+    //               "came across her brother, who told her to get back to bed. </p>"+
+    //               "<p>How many times did Sally come across people? (Please enter a number)</p>"+
+    //               "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 4],
+    //     "Form", {html: "<p style='width:500px'>Sally spent the entire day watching TV. She didn’t leave the house until late afternoon. While she was out, two friends of hers "+
+    //               "came across her, who both asked her why she looked like crap. She told them it was just one of those days. On her way back home, she "+
+    //               "came across her brother, who told her to get back to bed. </p>"+
+    //               "<p>How many times did Sally come across people? (Please enter a number)</p>"+
+    //               "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 5],
+    //     "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, she happened upon two of her former roommates. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
+    //                    "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 5],
+    //     "Form", {html: "<p style='width:500px'>Elly spent most of today watching soap operas with her niece, Jocelyn. Before the end of the day, she stopped by the supermarket to pick up some food for dinner. While she was out, two of her former roommates happened upon her. She also happened upon an old friend of hers. When she made it back, she cooked up some pasta for Jocelyn.</p>"+
+    //                    "<p>How many times did Elly happen upon people? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 6],
+    //     "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, he stumbled upon three of his neighbors. He also sat by a pond for a while, and while he was there, he stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
+    //                    "<p>How many times did Alex stumble across people? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 6],
+    //     "Form", {html: "<p style='width:500px'>Alex loves to spend sunny days outdoors. As soon as he saw the weather report this morning, he planned a day full of outdoor activities. While he was out for a walk, three of his neighbors stumbled across him. He also sat by a pond for a while, and while he was there, he stumbled upon his friend, Jeff. Alex was sad to see the day come to an end.</p>"+
+    //                    "<p>How many times did Alex stumble across people? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 7],
+    //     "Form", {html: "<p style='width:500px'>Mary loves hanging out in coffee shops. She met two of her closest friends in one of her favorites last Wednesday. That same day, Mary went to a garden near her neighborhood. She met her dad there to talk about their upcoming trip.</p>"+
+    //                    "<p>How many times did people meet Mary last Wednesday? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 7],
+    //     "Form", {html: "<p style='width:500px'>Mary loves hanging out in coffee shops. Two of Mary’s closest friends met her in one of her favorites last Wednesday. That same day, Mary went to a garden near her neighborhood. She met her dad there to talk about their upcoming trip.</p>"+
+    //                    "<p>How many times did people meet Mary last Wednesday? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 8],
+    //     "Form", {html: "<p style='width:500px'>Alison told her boss she was sick and took the entire day off. She missed an important meeting, but she didn’t care. Unfortunately, she ran into three of her coworkers. She knows now to come up with better excuses to give her boss. She ran into her sister back at home and told her what a mess the day was.</p>"+
+    //                    "<p>How many times did people run into Alison that day? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 8],
+    //     "Form", {html: "<p style='width:500px'>Alison told her boss she was sick and took the entire day off. She missed an important meeting, but she didn’t care. Unfortunately, three of her coworkers ran into her. She knows now to come up with better excuses to give her boss. She ran into her sister back at home and told her what a mess the day was.</p>"+
+    //                    "<p>How many times did people run into Alison that day? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // ["criticalA", 9],
+    //     "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, he bumped into his two aunts. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
+    //                    "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 9],
+    //     "Form", {html: "<p style='width:500px'>Harry had a rough week. It all started off when his girlfriend sent him a text saying it was over. To make matters worse, his two aunts bumped into him. He had to relive the experience over and over. At the end of the week, he bumped into his best friend and went out to have a beer.</p>"+
+    //                    "<p>How many times did people bump into Harry last week? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 10],
+    //     "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, he came across three of his high school friends. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
+    //                    "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 10],
+    //     "Form", {html: "<p style='width:500px'>Austin spent last weekend in New York. While he was there, three of his high school friends came across him. He was happy to get to hear how they had been since he had last seen them. He also came across his high school teacher while exploring Central Park.</p>"+
+    //                    "<p>How many times did people come across Austin in New York? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 11],
+    //     "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, she happened upon two other friends - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
+    //                    "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 11],
+    //     "Form", {html: "<p style='width:500px'>Sally went to the county fair last weekend with a couple friends of hers. While she was there, two other friends happened upon her - it was clearly a popular weekend at the fair. Sally had a great time – she ate three hot dogs. She also happened upon her old roommate, Beth.</p>"+
+    //                    "<p>How many times did people happen upon Sally at the fair? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalA", 12],
+    //     "Form", {html: "<p style='width:500px'>Derek works as a doctor at a hospital. Yesterday at work, he stumbled upon two former patients of his. Derek is always thrilled to hear how his former patients are doing. That same day, an old friend of his also stumbled upon him at work. Overall, it was a pretty good day.</p>"+
+    //                    "<p>How many times did people stumble upon Derek that day? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
+    // [["criticalB", 12],
+    //     "Form", {html: "<p style='width:500px'>Derek works as a doctor at a hospital. Yesterday at work, two former patients of his stumbled upon him. Derek is always thrilled to hear how his former patients are doing. That same day, an old friend of his also stumbled upon him at work. Overall, it was a pretty good day.</p>"+
+    //                    "<p>How many times did people stumble upon Derek that day? (Please enter a number)</p>"+
+    //                    "<input name='answer' type='text' class='obligatory'>"}
+    // ],
     [ "filler",  // fillers: non-symmetric
         "Form", {html: "<p style='width:500px'>Jonathan spends a lot of his time eating. He ate three pizzas yesterday. He also drank a glass of OJ, "+
                           "and ate a piece of cake. Other than that, Jonathan didn't do too much yesterday.</p>"+
